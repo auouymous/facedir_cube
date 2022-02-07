@@ -1,7 +1,7 @@
 facedir_cube = {}
 local MP = minetest.get_modpath("facedir_cube").."/"
 
--- yaw = 0-3 = NESW = minetest.dir_to_facedir(vector.subtract(pointed_thing.above, placer:getpos()))
+-- yaw = 0-3 = NESW = minetest.dir_to_facedir(vector.subtract(pointed_thing.above, placer:get_pos()))
 
 -- 0*4 (+Y: U) - rotate cw around U face: green -> NESW
 -- 1*4 (+X: U -> N) - rotate cw around N face: green -> DEUW
